@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# Math Magician
+
+This is the first project of the Math Magicians application. I will set up the environment and tools needed to develop a React application. In the following projects, I will develop the actual application.
+
+
+## Setting up my React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+![react](https://user-images.githubusercontent.com/22328716/129612492-73ec21c3-0088-4227-9320-4b01dbf37a84.png)
 
 ## Available Scripts
 
