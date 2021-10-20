@@ -14,12 +14,12 @@ class Calculator extends React.Component {
         <button name="AC" type="button" className="button">AC</button>
         <button name="+/-" type="button" className="button">+/-</button>
         <button name="%" type="button" className="button">%</button>
-        <button name="/" type="button" className="operators">/</button>
+        <button name="/" type="button" className="operators">÷</button>
 
         <button name="7" type="button" className="button">7</button>
         <button name="8" type="button" className="button">8</button>
         <button name="9" type="button" className="button">9</button>
-        <button name="*" type="button" className="operators">*</button>
+        <button name="*" type="button" className="operators">×</button>
 
         <button name="4" type="button" className="button">4</button>
         <button name="5" type="button" className="button">5</button>
