@@ -21,6 +21,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Clone the repo `https://github.com/luqmanmusah/math.git`
 - `cd` into the directory
+- Run `npm install` 
 - checkout to the interactive branch `git checkout component`
 - Run `npm start` 
 - open in your desired code editor
