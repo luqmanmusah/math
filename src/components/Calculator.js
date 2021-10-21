@@ -7,22 +7,22 @@ class Calculator extends React.Component {
     super(props);
     this.state = {
       next: null,
-      total: null
+      total: null,
     };
     this.Handler = this.Handler.bind(this);
   }
+
   Handler(event) {
     const { name } = event.target;
     this.setState((state) => calculate(state, name));
   }
-    render() {
-      const { next, total } = this.state;
-      return (
 
-     
+  render() {
+    const { next, total } = this.state;
+    return (
 
       <div className="grid container max-width-sm">
-        <Resul className="result" result={ next || ( total|| '0') }/>
+        <Result className="result" result={next || (total || '0')} />
         <button onClick={this.Handler} name="AC" type="button" className="button">AC</button>
         <button onClick={this.Handler} name="+/-" type="button" className="button">+/-</button>
         <button onClick={this.Handler} name="%" type="button" className="button">%</button>
@@ -31,7 +31,7 @@ class Calculator extends React.Component {
         <button onClick={this.Handler} name="7" type="button" className="button">7</button>
         <button onClick={this.Handler} name="8" type="button" className="button">8</button>
         <button onClick={this.Handler} name="9" type="button" className="button">9</button>
-        <button onClick={this.Handler} name="*" type="button" className="operators">×</button>
+        <button onClick={this.Handler} name="x" type="button" className="operators">x</button>
 
         <button onClick={this.Handler} name="4" type="button" className="button">4</button>
         <button onClick={this.Handler} name="5" type="button" className="button">5</button>
@@ -48,7 +48,6 @@ class Calculator extends React.Component {
         <button onClick={this.Handler} name="=" type="button" className="operators">=</button>
       </div>
     );
-    
   }
 }
 
