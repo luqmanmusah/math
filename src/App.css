@@ -1,3 +1,57 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+  background-color: bisque;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+}
+
+nav ul {
+  float: right;
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  font-size: 20px;
+  padding-right: 15px;
+  margin-top: 35px;
+}
+
+ul {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 30px
+}
+
+h1 {
+  width: 70%;
+  font-size: 40px;
+  margin-top: 35px;
+  padding-left: 15px;
+}
+
+.active-link {
+  color: orangered;
+  text-decoration: underline;
+}
+
+.quote-message h3 {
+  font-size: 30px;
+  margin: 50px;
+  font-style: italic;
+}
+
+.home-message h2 {
+  font-size: 30px;
+  font-style: italic;
+}
+
+.home-message p {
+  font-size: 20px;
+  margin: 25px;
 }

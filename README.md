@@ -1,13 +1,24 @@
-# Math Magician
+# Math Magician - Full Website
 
-This is the first project of the Math Magicians application. I will set up the environment and tools needed to develop a React application. In the following projects, I will develop the actual application. I added, a React component that will hold the core functionality: a calculator.
+This is a full website with three pages to illustrate knowledge in using react routes. In the following projects, I develop the actual application, ie the Calculator and added the other pages(Home and Quotes pages).
 
-![Cal](https://user-images.githubusercontent.com/22328716/138008033-5750a9db-e9ed-4684-ba21-45f5b5852a5c.png)
+![home_page](https://user-images.githubusercontent.com/22328716/131751369-318d2f68-7516-4a0f-a07c-37a5ef8edae1.png)
+
+![cal_page](https://user-images.githubusercontent.com/22328716/131751415-7f1ef181-a0dc-4d72-ab1b-98d80792b1d6.png)
+
+![quotes_page](https://user-images.githubusercontent.com/22328716/131751527-f0d48205-96aa-452a-8e36-162ea5e9b261.png)
+
+
 ## Learning objectives
 
 - Use React components.
 - Use React props.
 - Use React state.
+- Handle events in a React app.
+- Use React life cycle methods.
+- Understand the mechanism of lifting state up.
+- Use React hooks.
+- Use React Routes.
   
 ## Built With
 
@@ -19,10 +30,9 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-- Clone the repo `https://github.com/luqmanmusah/math.git`
+- Clone the repo `https://github.com/luqmanmusah/Math_magician.git`
 - `cd` into the directory
-- Run `npm install` 
-- checkout to the interactive branch `git checkout component`
+- checkout to the interactive branch `git checkout full_website`
 - Run `npm start` 
 - open in your desired code editor
 
