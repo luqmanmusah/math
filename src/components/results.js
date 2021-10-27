@@ -1,4 +1,3 @@
-/* eslint-disable react/destructuring-assignment */
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -9,8 +8,9 @@ class Result extends React.Component {
   }
 
   componentDidUpdate(prevProps) {
-    if (this.props.result !== prevProps.result) {
-      this.updateResult(this.props.result);
+    const { result } = this.props;
+    if (result !== prevProps.result) {
+      this.updateResult(result);
     }
   }
 
