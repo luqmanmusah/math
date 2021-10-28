@@ -1,10 +1,13 @@
+.calculator-body {
+  width: 100%;
+  display: flex;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: repeat(6, 1fr);
-  margin-right: 20%;
-  margin-left: 20%;
   padding-top: 20px;
+  width: 50%;
 }
 
 .result {
@@ -12,7 +15,7 @@
   background-color: rgb(180, 170, 170);
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 50px;
+  font-size: 25px;
   display: flex;
   justify-content: flex-end;
   align-content: center;
@@ -25,13 +28,19 @@
 
 .operators {
   background-color: rgb(221, 152, 88);
-  min-width: 100px;
-  font-size: 50px;
+  min-width: 50px;
+  font-size: 25px;
 }
 
 .button {
   align-content: center;
-  min-height: 70px;
-  min-width: 100px;
+  min-height: 35px;
+  min-width: 50px;
+  font-size: 25px;
+}
+
+.calculator-body p {
+  width: 50%;
   font-size: 50px;
+  font-style: italic;
 }
