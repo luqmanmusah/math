@@ -9,6 +9,10 @@ nav {
   display: flex;
 }
 
+ul {
+  list-style: none;
+}
+
 nav ul {
   float: right;
   display: flex;
@@ -19,13 +23,9 @@ nav ul {
   margin-top: 35px;
 }
 
-ul {
-  list-style: none;
-}
-
 li a {
   text-decoration: none;
-  font-size: 30px
+  font-size: 30px;
 }
 
 h1 {
